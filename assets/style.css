@@ -15,6 +15,7 @@ header {
     top: 0;
     display: block;
     width: 100%;
+    left: 0;
     
 }
 
@@ -66,6 +67,7 @@ footer{
     display: block;
     width: 100%;
     color: beige;
+    left: 0;
 }
 button {
     width: 200px;
