@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    text-align: right;
+    background-color: navy;
+    border-bottom: 20px solid aquamarine;
+    color: whitesmoke;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    position: relative;
+    margin-top: 0%;
+}
+h1 {
+    font-size: xx-large ;
+    font-weight: bolder;
+}     
+
+ul li {
+
+}
