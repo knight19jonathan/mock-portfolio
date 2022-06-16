@@ -2,6 +2,7 @@ body {
     background-color: black;
     color: whitesmoke;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 header {
     text-align: right;
@@ -9,16 +10,60 @@ header {
     border-bottom: 20px solid aquamarine;
     color: whitesmoke;
     font-size: larger;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    position: fixed;
+    top: 0;
+    display: block;
+    width: 100%;
     
-    position: relative;
-    margin-top: 0%;
 }
+
 h1 {
     font-size: xx-large ;
     font-weight: bolder;
+    text-align: center;
+    margin-top: 150px;
 }     
-
+h2 {
+    text-align: center;
+}
+#image {
+    margin: 0 auto;
+}
+p {
+    text-align: center;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+}
 ul li {
-
+    display: block;
+    margin-right: auto;
+}
+a {
+    text-decoration: none;
+    padding: 1%;
+}
+.box2 {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    border-radius: 0;
+    border-color: blue;
+    padding: 20px;
+}
+footer{
+    text-align: center;
+    background-color: blue;
+    line-height: 150px;
+}
+button {
+    width: 200px;
+    height: 70px;
+    background-color: crimson;
+    color: yellow;
+}
+input {
+    width: 600px;
 }
